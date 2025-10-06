@@ -1,4 +1,4 @@
-**The Foundational Building Blocks of Reliable AI Agent**
+🤖 ##**The Foundational Building Blocks of Reliable AI Agent**
 
 In today's rapidly evolving technology, building an AI agent has become increasingly accessible, Even individuals without a technical background can create one using no-code platforms such as n8n, Zapier, Lindy, Relevance AI, and many others. Online resources like YouTube tutorials and tools like ChatGPT further simplify the process.
 
