@@ -21,3 +21,10 @@ It's pretty easy and surprisingly simple. You send a prompt to an LLM; the LLM a
 
 LLMs do not retain information from previous interactions. Therefore, to build a dependable and reliable AI agent that can recall facts, track long-term goals, and adapt its responses based on past outcomes, we need to implement a memory system within the agent.
 Memory is what allows an agent to understand context, learn from interactions, and behave consistently over time. Without it, an AI agent is like someone with short-term amnesia — it can only respond to the current message, forgetting everything that happened before.
+
+We can use a database or vector store to remember and retrieve information.
+Example tools:
+
+🗃️ SQLite, PostgreSQL → for structured, factual memory
+
+🧬 Chroma, Pinecone, FAISS → for semantic vector memory (embedding-based recall)
