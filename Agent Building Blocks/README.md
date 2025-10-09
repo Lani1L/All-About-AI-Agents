@@ -28,3 +28,6 @@ Example tools:
 🗃️ SQLite, PostgreSQL → for structured, factual memory
 
 🧬 Chroma, Pinecone, FAISS → for semantic vector memory (embedding-based recall)
+
+### 🛠️ **3. Tools**
+
