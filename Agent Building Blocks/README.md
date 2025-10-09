@@ -16,3 +16,8 @@ The "brain" that processes information and makes decisions using LLMs.
 Without intelligence, agents cannot adapt, learn, or make rational decisions that align with user goals.
 
 It's pretty easy and surprisingly simple. You send a prompt to an LLM; the LLM analyzes and thinks about it, then sends the answer to your prompt. Very straightforward, isn't it? But the tricky part isn't the LLM call itself. It's everything else you need to build
+
+### 💾 **2. Memory**
+
+LLMs do not retain information from previous interactions. Therefore, to build a dependable and reliable AI agent that can recall facts, track long-term goals, and adapt its responses based on past outcomes, we need to implement a memory system within the agent.
+Memory is what allows an agent to understand context, learn from interactions, and behave consistently over time. Without it, an AI agent is like someone with short-term amnesia — it can only respond to the current message, forgetting everything that happened before.
