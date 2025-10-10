@@ -1,5 +1,5 @@
 """
-A smart agent doesn’t just think — it can act.
+'A smart agent doesn’t just think — it can act.'
 
 More info: https://platform.openai.com/docs/guides/function-calling?api-mode=responses
 """
