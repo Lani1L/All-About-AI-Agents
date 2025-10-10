@@ -35,9 +35,15 @@ Nowadays, AI agents are not limited to generating text — they can also perform
 
 This ability to both reason and act makes AI agents far more powerful and useful. By combining natural language understanding with real-world execution, they can streamline business operations, make autonomous decisions, and serve as the backbone for intelligent automation systems.
 
-### 🛠️ **4. Validation**
+### 🔍 **4. Validation**
 
 Even though large language models (LLMs) may appear intelligent, they can still produce inconsistent or invalid outputs. That’s why validation is a critical step in building reliable AI systems. 
 
 We need to make sure that the LLM returns JSON that matches your expected schema.
-So you validate the JSON output against a predefined structure. If validation fails, you can send it back to the LLM to fix it. This ensures downstream code can reliably work with the data.
+So we validate the JSON output against a predefined structure. If validation fails, we can send it back to the LLM to fix it. This ensures downstream code can reliably work with the data.
+
+### 🕹️ **4. Control**
+
+You don’t want your LLM to make every decision — some tasks are better handled by traditional logic. While the model can reason and generate responses, control flow should remain in your code.
+
+Use if/else statements, switch cases, and routing logic to determine when to call the LLM, when to use a predefined function, or when to skip model interaction altogether. This approach keeps your agent predictable, efficient, and easier to debug — combining the creativity of AI with the reliability of structured programming.
