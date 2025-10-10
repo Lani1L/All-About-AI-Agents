@@ -42,7 +42,7 @@ Even though large language models (LLMs) may appear intelligent, they can still 
 We need to make sure that the LLM returns JSON that matches your expected schema.
 So we validate the JSON output against a predefined structure. If validation fails, we can send it back to the LLM to fix it. This ensures downstream code can reliably work with the data.
 
-### 🕹️ **4. Control**
+### 🕹️ **5. Control**
 
 You don’t want your LLM to make every decision — some tasks are better handled by traditional logic. While the model can reason and generate responses, control flow should remain in your code.
 
