@@ -47,3 +47,9 @@ So we validate the JSON output against a predefined structure. If validation fai
 You don’t want your LLM to make every decision — some tasks are better handled by traditional logic. While the model can reason and generate responses, control flow should remain in your code.
 
 Use if/else statements, switch cases, and routing logic to determine when to call the LLM, when to use a predefined function, or when to skip model interaction altogether. This approach keeps your agent predictable, efficient, and easier to debug — combining the creativity of AI with the reliability of structured programming.
+
+### 🔄 **6. Recovery**
+
+At some point, unexpected things will happen — APIs can go down, LLMs might return nonsense, or rate limits can hit you when you least expect it. While these issues are often unavoidable, what matters is how your system recovers.
+
+That’s why it’s essential to implement a robust recovery plan — using techniques like try/catch blocks, retry logic with exponential backoff, and fallback responses when things break. Just like traditional software systems, intelligent agents need solid error handling to stay reliable even when the unexpected occurs.
