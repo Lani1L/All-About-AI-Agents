@@ -1,14 +1,16 @@
 """
-“An agent without memory is like a human with amnesia. you have to repeat all over again”
+'An agent without memory is like a human with amnesia. you have to repeat all over again'
+
 More info: https://platform.openai.com/docs/guides/conversation-state?api-mode=responses
 """
 
 from openai import OpenAI
 
-client = OpenAI()
+client = OpenAI()  # Initialize OpenAI client
 
 
 def ask_joke_without_memory():
+    # Ask the model for a programming joke (no memory)
     response = client.responses.create(
         model="gpt-4o-mini",
         input=[
@@ -19,6 +21,7 @@ def ask_joke_without_memory():
 
 
 def ask_followup_without_memory():
+    # Ask a follow-up question without context (the model won’t remember)
     response = client.responses.create(
         model="gpt-4o-mini",
         input=[
@@ -29,6 +32,7 @@ def ask_followup_without_memory():
 
 
 def ask_followup_with_memory(joke_response: str):
+    # Recreate conversation history so the model has context
     response = client.responses.create(
         model="gpt-4o-mini",
         input=[
@@ -41,14 +45,15 @@ def ask_followup_with_memory(joke_response: str):
 
 
 if __name__ == "__main__":
-    # First: Ask for a joke
+    # Step 1: Ask for a joke
     joke_response = ask_joke_without_memory()
     print(joke_response, "\n")
 
-    # Second: Ask follow-up without memory (AI will be confused)
+    # Step 2: Ask follow-up without memory (AI forgets)
     confused_response = ask_followup_without_memory()
     print(confused_response, "\n")
 
-    # Third: Ask follow-up with memory (AI will remember)
+    # Step 3: Ask follow-up with memory (AI recalls context)
     memory_response = ask_followup_with_memory(joke_response)
     print(memory_response)
+
