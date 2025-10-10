@@ -34,3 +34,10 @@ Example tools:
 Nowadays, AI agents are not limited to generating text — they can also perform real-world actions such as calling APIs, updating databases, reading and writing files, automating workflows, and even integrating with external applications and services.
 
 This ability to both reason and act makes AI agents far more powerful and useful. By combining natural language understanding with real-world execution, they can streamline business operations, make autonomous decisions, and serve as the backbone for intelligent automation systems.
+
+### 🛠️ **4. Validation**
+
+Even though large language models (LLMs) may appear intelligent, they can still produce inconsistent or invalid outputs. That’s why validation is a critical step in building reliable AI systems. 
+
+We need to make sure that the LLM returns JSON that matches your expected schema.
+So you validate the JSON output against a predefined structure. If validation fails, you can send it back to the LLM to fix it. This ensures downstream code can reliably work with the data.
