@@ -7,7 +7,7 @@ from pydantic import BaseModel
 
 
 class TaskResult(BaseModel):
-    # Define the expected structured output schema for the model.
+    """Define the expected structured output schema for the model."""
     task: str
     completed: bool
     priority: int
