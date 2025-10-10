@@ -53,3 +53,9 @@ Use if/else statements, switch cases, and routing logic to determine when to cal
 At some point, unexpected things will happen — APIs can go down, LLMs might return nonsense, or rate limits can hit you when you least expect it. While these issues are often unavoidable, what matters is how your system recovers.
 
 That’s why it’s essential to implement a robust recovery plan — using techniques like try/catch blocks, retry logic with exponential backoff, and fallback responses when things break. Just like traditional software systems, intelligent agents need solid error handling to stay reliable even when the unexpected occurs.
+
+### 💬 **7. Feedback**
+
+Fully autonomous tasks are powerful — but not always appropriate. Sometimes, we need a human in the loop to verify an LLM’s output before it goes live. Certain decisions are simply too important or sensitive for complete automation, such as sending customer emails, approving transactions, or making purchases.
+
+To handle these cases safely, include approval workflows where a human can review, approve, or reject actions before execution. This approach ensures accountability, reduces risk, and mirrors the same review processes we already use in traditional applications.
