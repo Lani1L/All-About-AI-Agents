@@ -1,5 +1,5 @@
 """
-Memory: Stores and retrieves relevant information across interactions.
+“An agent without memory is like a human with amnesia. you have to repeat all over again”
 More info: https://platform.openai.com/docs/guides/conversation-state?api-mode=responses
 """
 
