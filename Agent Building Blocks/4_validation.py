@@ -1,4 +1,6 @@
 """
+'An AI agent without validation is like a compass without calibration — it may point somewhere, but not always the right direction.'
+
 More info: https://platform.openai.com/docs/guides/structured-outputs?api-mode=responses
 """
 
