@@ -31,3 +31,6 @@ Example tools:
 
 ### 🛠️ **3. Tools**
 
+Nowadays, AI agents are not limited to generating text — they can also perform real-world actions such as calling APIs, updating databases, reading and writing files, automating workflows, and even integrating with external applications and services.
+
+This ability to both reason and act makes AI agents far more powerful and useful. By combining natural language understanding with real-world execution, they can streamline business operations, make autonomous decisions, and serve as the backbone for intelligent automation systems.
