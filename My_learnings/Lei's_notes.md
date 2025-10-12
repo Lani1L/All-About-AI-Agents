@@ -19,17 +19,23 @@ Each approach has its own advantages and disadvantages. Frameworks offer speed a
 **2.** There's a new tool called **UV**. It aims to serve as a drop-in replacement (or even unification) for many existing Python tools: pip, virtualenv, pipx, pip-tools, pyenv, poetry, etc.
 
 **It can manage:**
-Dependencies (installing, resolving, locking) 
-Virtual environments and isolation of tool installs 
-Project operations (running scripts, syncing environments, possibly building/publishing) 
-Tool execution: it can run and install CLI tools in isolated environments (via uv tool run or the alias uvx)
+- Dependencies (installing, resolving, locking) 
+
+- Virtual environments and isolation of tool installs 
+
+- Project operations (running scripts, syncing environments, possibly building/publishing) 
+
+- Tool execution: it can run and install CLI tools in isolated environments (via uv tool run or the alias uvx)
 
 **Current Limitations & Considerations**
 
-While UV supports major workflows, it may not yet match every legacy or obscure feature of pip or other tooling. 
-Because it's newer, community adoption, documentation, and ecosystem support are still growing.
-Migration from existing tooling (poetry, pipenv, etc.) may require adjustments in project layout or configurations.
-Tooling around publishing or certain edge cases might still rely on external tools (e.g. using twine).
+- While UV supports major workflows, it may not yet match every legacy or obscure feature of pip or other tooling. 
+
+- Because it's newer, community adoption, documentation, and ecosystem support are still growing.
+
+- Migration from existing tooling (poetry, pipenv, etc.) may require adjustments in project layout or configurations.
+
+- Tooling around publishing or certain edge cases might still rely on external tools (e.g. using twine).
 
 **UV Docs**
 https://docs.astral.sh/uv/getting-started/installation/ & 
