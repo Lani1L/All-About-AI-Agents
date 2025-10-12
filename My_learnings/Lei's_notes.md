@@ -30,3 +30,7 @@ While UV supports major workflows, it may not yet match every legacy or obscure 
 Because it's newer, community adoption, documentation, and ecosystem support are still growing.
 Migration from existing tooling (poetry, pipenv, etc.) may require adjustments in project layout or configurations.
 Tooling around publishing or certain edge cases might still rely on external tools (e.g. using twine).
+
+**UV Docs**
+https://docs.astral.sh/uv/getting-started/installation/
+https://docs.astral.sh/uv/
