@@ -32,5 +32,5 @@ Migration from existing tooling (poetry, pipenv, etc.) may require adjustments i
 Tooling around publishing or certain edge cases might still rely on external tools (e.g. using twine).
 
 **UV Docs**
-https://docs.astral.sh/uv/getting-started/installation/
+https://docs.astral.sh/uv/getting-started/installation/ & 
 https://docs.astral.sh/uv/
