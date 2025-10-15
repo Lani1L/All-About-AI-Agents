@@ -1,6 +1,7 @@
 **1.** In AI engineering, there are two main ways to build an AI agent:
 
 a. Using frameworks such as LangChain, LlamaIndex, CrewAI, or AutoGen, and
+
 b. Building one from scratch using pure Python or Java code combined with an LLM API.
 
 Each approach has its own advantages and disadvantages. Frameworks offer speed and convenience, while custom implementations provide flexibility and control. Below are some of the key pros and cons of both methods: 
